@@ -1,0 +1,73 @@
+*{
+    font-family: 'Roboto', sans-serif !important;
+}
+header {
+    background-color: transparent !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    z-index: 1000 !important;
+    transition: background-color 0.3s ease;
+}
+body{
+    background-color: #232222 !important;
+}
+.navbar{   
+    padding: 15px !important;
+}
+@keyframes fadeInBackground {
+    from {
+        background-color: transparent;
+        opacity: 0;
+    }
+    to {
+        background-color: #181818 !important;
+        opacity: 1;
+    }
+}
+.nav-bg{
+    animation: fadeInBackground 0.7s ease;
+    background-color: #181818 !important;
+}
+.nav-link{
+    color: rgb(206, 206, 206) !important;
+}
+.active{
+    color: white !important;
+    /* border-bottom: 3px solid white !important; */
+}
+.back-video{
+    position: relative !important; 
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    z-index: -1 !important;
+}
+.hiro-title{
+    position: relative;
+    bottom: 260px;
+}   
+.pal-2{
+    font-weight: bolder !important;
+}
+@media(min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto !important;
+        height: 100% !important;
+    }
+}
+.information{
+    margin-top: 150px;
+}
+/* 
+.about-image{
+    width: 400px !important;
+
+} */
