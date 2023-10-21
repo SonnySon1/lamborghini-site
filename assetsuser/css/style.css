@@ -78,3 +78,19 @@ body{
     width: 400px !important;
 
 } */
+
+
+
+/* contactus */
+.hiro-title-contact{
+    position: relative;
+    bottom: 400px;
+}
+.fal-con-1{ 
+    font-weight: thin;
+    font-size: 35px;
+}
+.fal-con-2{ 
+    font-weight: bold;
+    font-size: 75px;
+}
