@@ -83,8 +83,8 @@ body{
 
 /* contactus */
 .hiro-title-contact{
-    position: relative;
-    bottom: 400px;
+    /* position: relative;
+    bottom: 400px; */
 }
 .fal-con-1{ 
     font-weight: thin;
@@ -94,3 +94,18 @@ body{
     font-weight: bold;
     font-size: 75px;
 }
+
+.triangle {
+    width: 20%;
+    height: 100vh;
+    background-color: #3498db;  
+    position: absolute;
+  }
+.triangle-part {
+    width: 50%;
+    height: 100vh;
+    background-color: #3498db;  
+    transform: skewX(-30deg);
+    margin-left: -30px;
+    
+  }
