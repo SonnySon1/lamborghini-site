@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Automobili Lamborghini-Official Website | Lamborghini.com</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assetsuser/img/favicon.jpg">
+
+  <!-- font falmily -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- bootstrap  -->
+  <link rel="stylesheet" href="assetsuser/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+</head>
+<body>
+  <!-- navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-transparent" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">
+          <img src="assetsuser/img/logo 1.png" width="150">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            <a class="nav-link" href="#">NEWS</a>
+            <a class="nav-link" href="#">DEALERSHIPS</a>
+            <a class="nav-link" href="#">ABOUT US</a>
+            <div class="gap-2 d-flex ml-2">
+              <a class="nav-link btn btn-secondary p-2 px-4" style="border-radius: 50px;border: 1px solid white;"
+                href="#">Login</a>
+              <a class="nav-link btn btn-secondary p-2 px-4 bg-white text-black"
+                style="border-radius: 50px;border: 1px solid white;" href="#">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <!-- /end navabar -->
+
+
+  <!-- hiro -->
+  <section style="height: 100vh; position: relative;">
+    <!-- <img src="assetsuser/img/hiro/hiro2.png"  alt="" style="width: 100%;"> -->
+    <img src="assetsuser/img/contactus/model3.jpg" class="w-100 position-absolute  h-100" style="z-index: -1;" alt="">
+    <div class="d-flex flex-column justify-content-center align-items-start text-white h-100" >
+        <h6 class="ms-5 fal-con-1">CONTACT US</h5>
+        <p class="ms-5 fal-con-2">CUSTOMER CARE</p>
+    </div>
+  </section>
+  <!-- end hiro -->
+
+  <!-- information -->
+  <section>
+    <div class="triangle"></div>
+    <div class="triangle-part"></div>
+  </section>
+  <!-- endindormation -->
+
+<!-- footer -->
+<footer class="bg-black p-3">
+    <div class="text-white container px-5">
+      <div class="d-flex gap-5 text-center">
+          <div class="d-flex gap-5">
+            <P>COMPANY</P>
+            <P>CAREERS</P>
+            <P>CONTACTUS</P>
+            <P>SUSTAINABILITY</P>
+            <P>MEDIACENTER</P>
+            <P>PRIVACY&LEGAL</P>
+          </div>
+          <div class="d-flex gap-3">
+            <P><i class="bi bi-instagram"></i></P>
+            <P><i class="bi bi-facebook"></i></P>
+            <P><i class="bi bi-youtube"></i></P>
+            <P><i class="bi bi-twitter-x"></i></P>
+            <P><i class="bi bi-tiktok"></i></P>
+            <P><i class="bi bi-linkedin"></i></P>
+            <P><i class="bi bi-play-circle-fill"></i></P>
+            <P><i class="bi bi-discord"></i></P>
+          </div>
+    </div>
+      <div class="mb-5">
+        The consumption and emissions values in the website refer to your geographical IP. This value might be unrealistic if you navigate using VPN or if the position of your Internet provider is imprecise. If you believe you are incorrectly geolocalized, contact your dealer to get valid consumption and emissions information in your area.
+      </div>
+      <div>
+        Copyright © 2023 Automobili Lamborghini S.p.A. a sole shareholder company part of Audi Group.
+        All rights reserved. VAT no. IT 00591801204
+        WARNING ABOUT ILLEGAL OFFERS OF ALLEGED SHARES OF AUTOMOBILI LAMBORGHINI S.P.A.
+        Automobili Lamborghini S.p.A. got the notice that several third parties across different countries are allegedly offering shares in Automobili Lamborghini S.p.A. These offers are unlawful and originate neither from Volkswagen Aktiengesellschaft nor from any of its subsidiaries.
+      </div>
+</footer>
+<!-- end footer -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>        
+<script>
+  window.addEventListener('scroll', function () {
+    const navbar = document.getElementById("navbar");
+    if (navbar) { // MemeTime-Tested Eleganceriksa apakah elemen dengan ID "navbar" ada di halaman
+      if (window.scrollY > 50) {
+        navbar.classList.remove('bg-transparent');
+        navbar.classList.add('nav-bg');
+      } else {
+        navbar.classList.remove('nav-bg');
+        navbar.classList.add('bg-transparent');
+      }
+    }
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

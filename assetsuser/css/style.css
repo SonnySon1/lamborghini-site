@@ -78,3 +78,34 @@ body{
     width: 400px !important;
 
 } */
+
+
+
+/* contactus */
+.hiro-title-contact{
+    /* position: relative;
+    bottom: 400px; */
+}
+.fal-con-1{ 
+    font-weight: thin;
+    font-size: 35px;
+}
+.fal-con-2{ 
+    font-weight: bold;
+    font-size: 75px;
+}
+
+.triangle {
+    width: 20%;
+    height: 100vh;
+    background-color: #3498db;  
+    position: absolute;
+  }
+.triangle-part {
+    width: 50%;
+    height: 100vh;
+    background-color: #3498db;  
+    transform: skewX(-30deg);
+    margin-left: -30px;
+    
+  }
